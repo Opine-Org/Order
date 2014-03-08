@@ -1,0 +1,27 @@
+{
+    "name": "opine/order",
+    "type": "library",
+    "minimum-stability": "dev",
+    "description": "Service for managing aspects of ordering",
+    "keywords": ["commerce", "Opine", "MongoDB"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Mahoney",
+            "email": "ryan@virtuecenter.com",
+            "homepage": "http://opine-php.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "phpunit/phpunit": "3.7.32",
+        "opine/db": "dev-master",
+        "opine/mail": "dev-master",
+        "opine/container": "dev-master",
+        "opine/financial": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Opine\\": "src/"}
+    }
+}
